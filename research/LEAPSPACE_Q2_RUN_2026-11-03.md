@@ -1,10 +1,20 @@
 # SBT – LeapSpace Q2: EDA/GSR analog front end and bench verification
 
 - **Task:** `LS-SBT-Q2-20261103-01`
-- **Status:** `PREPARED / NOT SUBMITTED` (owner manually runs LeapSpace Deep Research and archives full result). Q1 was delivered separately and remains only partially source-verified.
+- **Status:** `RESULT_RECEIVED / INITIAL_DOI_SPOTCHECK / SCIENTIFIC_ACCEPTANCE_PENDING` (owner ran LeapSpace and archived the 17-page PDF in SBT Drive/03/Leadspace). Q1 was delivered separately and remains only partially source-verified.
 - **Date:** 2026-11-03
 - **Scope:** independent battery-operated EDA/GSR front end; not a ZYTO protocol clone or clinically diagnostic product.
 - **Length:** 492 characters (LeapSpace UI 500-character input limit).
+
+## Receipt and initial evidence review – 2026-11-03 22:01 (owner report)
+
+- **Source file:** [Battery-powered EDA/GSR analog front-end design – 17-page LeapSpace PDF](https://drive.google.com/file/d/1KKNjZOZKnmPfxfRne-vsvCK1_udLJ-sT/view?usp=drivesdk) in [SBT Drive/03/Leadspace](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). 437687 bytes, uploaded around 21:01:36 UTC; PDF metadata creation at 21:01:32 UTC. Reported 22:01 CET local-time header.
+- **Source conversation printed in PDF:** https://www.sciencedirect.com/leapspace/conversation/875038fb-6fcb-4922-890a-ce8d9fe648f0.
+- **Verified content:** all-page extract read. PDF visually inspected for the page-10 bench protocol table. Classical ~0.5-V fixed-voltage DC skin conductance method described as baseline; AC/polarity reversal promising for reduced polarization drift; constant-current vs constant-voltage matched comparator data insufficient; AFE ADC/reference, ESD, current limiting, safety/isolation, contact detection and full BLE power budget underreported.
+- **Bench-test PROPOSALS ONLY:** calibrated resistors about 10 kΩ–1 MΩ; precision R + RC interface surrogates; 5-minute noise records; 30–60-minute drift; at least 3–5 repeats/load; <=1% pure-resistor static relative accuracy suggested as *project candidate*, not accepted standard or measured SBT result. All quantitative criteria need predefinition, calibration traceability, reference tolerances and safety approval before tests.
+- **Independent checks (selected):** Romero-Ante et al. (2025) DOI [10.3390/s25123603](https://doi.org/10.3390/s25123603) on wearable AC excitation (ten healthy participants), Pabst et al. (2017) DOI [10.1111/psyp.12803](https://doi.org/10.1111/psyp.12803) comparing DC and 20-Hz AC, Ogorevc et al. (2013) DOI [10.1016/j.measurement.2013.06.024](https://doi.org/10.1016/j.measurement.2013.06.024) on metrological evaluation. Bibliographic/abstract source check, **not** independent replication.
+- **BIBLIOGRAPHY QUALITY WARNING:** PDF entry #20 incorrectly dates Frisanco et al. `2099`; original Nature article DOI [10.1038/s41598-022-26016-1](https://doi.org/10.1038/s41598-022-26016-1) is **2022** and concerns VR/physiological response, not wearable EDA AFE circuitry. The PDF also itself says source DOI strings were not surfaced despite printing a references section with DOI links. Verify citations and claim mapping, not just count DOI-like strings.
+- **Status:** `LS-SBT-Q2-20261103-01 = RESULT_RECEIVED / INITIAL_DOI_SPOTCHECK / SCIENTIFIC_ACCEPTANCE_PENDING`. **No** bench device tested, human-use approval, or selected final analog circuit.
 
 ## Exact copy/paste prompt
 
