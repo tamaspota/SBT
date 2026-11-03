@@ -17,3 +17,13 @@
 3. Record raw EDA with timestamp, contact-quality and calibration metadata.
 4. Run repeatability / signal-quality tests; assess BLE on mobile.
 5. Solicit specific customer requirements and quote a paid feasibility pilot.
+
+## 2026-11-03 evening: research and software package prepared
+
+- The user clarified that **Google Drive SBT/03 is the partner-facing collaborative workspace**; this repository remains the technical versioned source and may currently be public. The private SBT/01, /02 and /04 health records are not partner-shared.
+- LeapSpace (Elsevier) is the **scientific literature/research lane**, not assumed to have GitHub or hardware/code execution access. No Deep Research run has been started or completed by this update.
+- Research prompts and evidence-acceptance contract: `research/LEAPSPACE_BRIEF_2026-11-03.md`.
+- Complete Android/iOS software is a proposed **phase-wise MVP**, not an implemented or committed product. Scope: independent BLE raw EDA capture, contact quality, local session logs, export; no diagnosis or ZYTO virtual-item reverse engineering. See `docs/SOFTWARE_MVP.md`.
+- Commercial first gate: next meeting should yield an explicit customer pain, written pilot acceptance criteria, and payer/budget hypothesis (see `docs/CUSTOMER_PILOT_QUESTIONS.md`).
+- External evidence: https://zyto.com/hand-cradle/ (GSR / USB); https://zyto.com/about/ (existing ZYTO mobile offerings). Do not market mobile-only as novel.
+- Next: owner launches independent LeapSpace queries, shares exported report with team via private SBT/03; review primary sources and choose lowest-cost bench GSR test before coding full mobile app.
