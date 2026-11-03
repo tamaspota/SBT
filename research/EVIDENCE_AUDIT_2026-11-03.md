@@ -1,10 +1,37 @@
 # SBT EDA / GSR research evidence audit (2026-11-03)
 
-**Status:** Initial independent, citation-level verification. NOT a completed LeapSpace systematic review and NOT a finished medical / electronics validation. Owner-directed handoff was reviewed from `tamaspota/TRE/docs/SBT_LEAPSPACE_HANDOFF_2026-11-03.md`.
+**Status:** Initial source-level verification PLUS returned 2026-11-03 LeapSpace Q1 PDF. Research output received, **partially independently checked, not yet scientifically accepted**. No completed electronics validation. Owner-directed handoff was reviewed from `tamaspota/TRE/docs/SBT_LEAPSPACE_HANDOFF_2026-11-03.md`.
+
+## 2026-11-03 evening update: Q1 LeapSpace report delivered (source-audit stage)
+
+**Original evidence:** [14-page 2026-11-03 LeapSpace Q1 PDF](https://drive.google.com/file/d/12q_RhdfrQzGpxOQ2Hcd0noWhSUeH7EWr/view?usp=drivesdk) in [SBT/03 / Leadspace](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c), from an owner-executed run. This is raw research output and is retained **in Drive, not copied to public GitHub**. Local PDF showed 14 pages, creation 2026-11-03 20:27:47 UTC, 46 numbered bibliographic references, and DOI URLs. The original task prompt matches the 494-character `research/LEAPSPACE_Q1_RUN_2026-11-03.md` brief.
+
+**Reported high-level conclusion:** In the report, finger/palm ranks best as the reference site; textile finger electrodes / proposed glove second; dry wrist electrodes third for fidelity-first use. This is a review recommendation, not a comparison of a finished SBT glove versus an SBT wrist device.
+
+**Independently verified anchors (selective; publisher, university or PubMed bibliographic records/abstracts):**
+
+| PDF ref | Study / DOI | Independent check and engineering meaning | Important limit |
+| --- | --- | --- | --- |
+| [1] | Tsiamyrtzis et al. (2016), `10.1145/2858036.2858536` | University record supports n=23 startle-based EDA site comparison, finger/palm good small-response detectability | Site/method specifics need full methods; not finished SBT prototype evidence |
+| [7] | van der Mee et al. (2021), `10.1016/j.ijpsycho.2021.08.003` | PubMed confirms 112 adults / 26 conditions, wrist-palm tonic r=0.31 and ns.SCR r=0.42 | Modest correlation; wrist not interchangeable with palm |
+| [14] | Haddad et al. (2018), `10.3390/bios8030079` | PubMed/MDPI confirms dry Ag/AgCl textile EDA on **fingers/hand**, cotton best with correlation 0.913 +/- 0.041 | Not proof of a complete movable glove; actual geometry/fit needs testing |
+| [15] | Janka et al. (2022), `10.1109/SEGAH54908.2022.9978571` | Tampere University describes textile **finger** electrode comparison with commercial Ag/AgCl | Glove/sock integration is stated as **future work**, not tested finished glove equivalence |
+| [25] | Veeturi et al., 2025 IEEE BSN / 2026 publication, `10.1109/BSN66969.2025.11337617` | PubMed reports a 10-adult mobile EDA circuit comparison with BIOPAC; first 5 gel, next 5 dry textile | Different electrode material groups, limited sample; not direct 3-form-factor design comparison |
+
+**Acceptance check vs user Q1 contract:**
+
+- **PASS:** Relevant 14-page research output received and retained on the designated SBT Drive; proposed ranking, comparative table, reference list and qualitative bench/volunteer protocol present.
+- **PARTIAL:** Six-digit reference identifiers [1]–[46] and DOI strings appear at the end, but authorship/DOI/method verification for **10+ specifically relevant primary trials** has not been completed. In many table rows N is expressly `Not surfaced`. The report itself says a genuinely DOI-verified 10+ study matrix cannot be reconstructed from the material, despite the later reference list.
+- **PARTIAL:** Textile EDA finger studies provide evidence of feasibility but **not** a controlled finished glove vs palm vs wrist benchmark. Some included works concern ECG, EMG, generic biopotentials or reviews: e.g., report references [5], [17], [19], [21], [39], [44]. These cannot be counted as direct EDA form-factor validation.
+- **NOT MET:** Numeric go/no-go thresholds are **not specified**. Terms like "low drift", "materially below", "acceptable agreement" are not testable pass/fail criteria until units, limits, window lengths and reference comparators are fixed in a signed plan.
+- **UNVERIFIED:** PDF bibliographic completeness, reference-to-claim mapping and original paper full texts for all 46 references. The LeapSpace PDF's own `High` confidence for a ranking must not be upgraded to project `validated` status without independent review.
+- **NEXT GATE:** Resolve at least one glove-specific controlled study if available, paper methods, and bench-only resistor/conductance specification with predefined bias, noise, drift, contact-loss and recovery thresholds, then decide whether the wearable or glove form merits prototyping. Human tests remain blocked on safety/privacy review.
+
+**Project status after this update:** `LS-SBT-Q1-20261103-01 = RESULT_RECEIVED / PARTIAL_SOURCE_REVIEW / ACCEPTANCE_PENDING`; Q2–Q4 not marked run. The historical initial `Retrieved references: 0` attempt remains a separate failed run, not the successful owner-supplied 14-page Q1 output.
 
 ## Scope and provenance
 
-- Four research prompts Q1-Q4 are prepared in `research/LEAPSPACE_BRIEF_2026-11-03.md`, but no accepted SBT-specific LeapSpace result with full bibliography, methods, data and expert review was located in the SBT repository or SBT Drive/03 at this checkpoint.
+- Four research prompts Q1-Q4 are defined in `research/LEAPSPACE_BRIEF_2026-11-03.md`. At the **initial pre-Q1-return checkpoint**, no SBT-specific research PDF was present. A Q1 report was subsequently deposited under SBT Drive/03/Leadspace and is now linked in the dated update below; it remains only partially validated.
 - **One owner-reported LeapSpace Q1 run: `Retrieved references: 0`**. It is a retrieval failure, not a negative scientific result. The search scope (`Project only` vs external scholarly corpus) is unresolved. Do not cite it as evidence.
 - Nine new screenshot attachments were supplied in the ongoing chat on 2026-11-03, but their individual contents were not exposed as accessible file bytes in the connected conversation-file list. Their claims are **pending review**, not incorporated as verified findings. A source-side export or accessible reattachment is required to cite exact screen content.
 - This file does **not** imply that LeapSpace executed a full literature study or LGW completed code/hardware work.
