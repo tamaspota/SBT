@@ -4,3 +4,7 @@ Read docs/CURRENT_STATE.md, docs/DECISIONS.md, docs/PRODUCT_CONCEPT.md, docs/ARC
 
 
 2026-11-03: Also read research/LEAPSPACE_BRIEF_2026-11-03.md, docs/SOFTWARE_MVP.md and docs/CUSTOMER_PILOT_QUESTIONS.md when doing research, mobile app work or proposals. Google Drive SBT/03 is the partner-facing workspace; technical changes and test evidence belong in GitHub. Never treat a prepared LeapSpace prompt as completed research.
+
+## 2026-11-03 20:44 CET OWNER CORRECTION — authoritative SBT project routing
+
+**SBT is a standalone project.** Its own ChatGPT Project is planned but has not been independently confirmed created. `tamaspota/SBT` is authoritative for SBT research, engineering, implementation, test acceptance, decisions and handoff. The owner has tasked **LGW with SBT technical execution** (user report; check actual job/commit evidence before claiming a run); LGW's central dispatch and safety rules remain mandatory. TRE may collaborate on commercial feasibility and paid pilots, but does **not** own SBT's engineering or all SBT chat coordination. This explicit later instruction supersedes any 2026-11-03 TRE-only handoff text; preserve the older account as history. Never send protected ZYTO/health data to public GitHub or an unrelated AI research provider.
