@@ -29,6 +29,22 @@
 
 **Project status after this update:** `LS-SBT-Q1-20261103-01 = RESULT_RECEIVED / PARTIAL_SOURCE_REVIEW / ACCEPTANCE_PENDING`; Q2–Q4 not marked run. The historical initial `Retrieved references: 0` attempt remains a separate failed run, not the successful owner-supplied 14-page Q1 output.
 
+## Q2 update – 2026-11-03 22:01: Analog-front-end LeapSpace report received
+
+**Source:** [17-page LeapSpace EDA/GSR AFE PDF](https://drive.google.com/file/d/1KKNjZOZKnmPfxfRne-vsvCK1_udLJ-sT/view?usp=drivesdk) in the designated SBT Drive/03/Leadspace folder. Task `LS-SBT-Q2-20261103-01 = RESULT_RECEIVED / INITIAL_DOI_SPOTCHECK / SCIENTIFIC_ACCEPTANCE_PENDING`.
+
+**Report observations (not validated engineering design):**
+- Fixed-voltage DC (~0.5 V) is the conventional EDA baseline under cited methodological guidance; AC/polarity reversal is a research candidate to mitigate polarization drift. It is **not** shown to be universally superior on matched power, noise or complexity.
+- Constant-current vs fixed-voltage head-to-head wearable evidence with matched calibrated references was not identified in the report.
+- ADC/reference specifications, input protection, isolation, leakage-current limits, contact detection, low-frequency drift and complete BLE power remain underreported; journal reports cannot substitute for electrical safety design review.
+- Bench matrix proposed: 10 kΩ–1 MΩ calibrated resistor equivalents, RC-interface emulation, 5-min noise windows, 30–60-min drift windows and 3–5 repeats per load. A <=1% pure-resistance error goal is **proposed only**, not an SBT-approved acceptance standard or tested measurement. Limits for noise, drift, timing and safety still lack quantified acceptance and uncertainty budget.
+
+**Source-level independent spot checks:** DOI [10.3390/s25123603](https://doi.org/10.3390/s25123603) (Romero-Ante et al. 2025, N=10, wearable AC EDA feasibility), DOI [10.1111/psyp.12803](https://doi.org/10.1111/psyp.12803) (Pabst et al., 2017 AC/DC comparison), DOI [10.1016/j.measurement.2013.06.024](https://doi.org/10.1016/j.measurement.2013.06.024) (Ogorevc et al. 2013 metrological uncertainty study). DOI metadata/abstract checked independently; full methods of all other citations **not verified**.
+
+**Detected reference defect:** bibliography entry #20 states year **2099** for Frisanco et al., DOI [10.1038/s41598-022-26016-1](https://doi.org/10.1038/s41598-022-26016-1), but the publisher says **14 December 2022**. The cited paper's VR study includes skin conductance as an outcome, but it is not evidence for GSR AFE circuit metrology. This is a concrete citation quality warning; further source audit mandatory.
+
+**Updated gates:** Q2 report received, only partial source review. Q5 metrology research prepared for quantitative R/RC bench acceptance; Q7 safety/regulatory research prepared for intended-use and current/fault questions. See `research/LEAPSPACE_RESEARCH_QUEUE_2026-11-03.md`. No hardware, electronics tests, medical claims, BLE compatibility or ZYTO integration validated.
+
 ## Scope and provenance
 
 - Four research prompts Q1-Q4 are defined in `research/LEAPSPACE_BRIEF_2026-11-03.md`. At the **initial pre-Q1-return checkpoint**, no SBT-specific research PDF was present. A Q1 report was subsequently deposited under SBT Drive/03/Leadspace and is now linked in the dated update below; it remains only partially validated.
