@@ -1,5 +1,15 @@
 # Current state — 2026-11-03
 
+## 2026-11-03 20:44 CET — OWNER CORRECTION: SBT IS A SEPARATE PROJECT (CURRENT)
+
+- SBT is an **independent project**, intended to have its own ChatGPT Project context. Its creation/configuration in ChatGPT has **not been verified in this session**; do not claim a new ChatGPT Project was created by this repository edit.
+- **SBT owns its research, hardware/firmware, mobile software design, technical decisions, tests and day-to-day project coordination.** Canonical technical memory and source: `tamaspota/SBT`.
+- **LGW is the owner-designated SBT technical executor / workstream.** The owner reports LGW is working on SBT; no LGW task ID, run status, output, approval or performance result was independently verified here. Actual execution must comply with `tamaspota/local-gpu-helper` dispatch, safety and permission gates.
+- **TRE remains involved only as a cross-project business/commercial partner** for SBT customer discovery, paid-pilot qualification, offer/conversion preparation and agreed handoffs. TRE does **not own or replace** the SBT project or direct its general technical work.
+- Shared collaborator-safe docs belong to owner-controlled SBT Drive/03; sensitive ZYTO reports, medical data and private files remain segregated. Public/private GitHub and collaborator access must be checked before changing them; no visibility or sharing change is authorized by this log.
+- Research/LeapSpace input and validated evidence stay attributable to SBT. The older TRE-only project-routing instruction below is **superseded** by this later, explicit owner instruction.
+- Next action: when the separate SBT ChatGPT Project exists, bootstrap it from this CURRENT_STATE, DECISIONS, AGENTS.md and research/LEAPSPACE_BRIEF_2026-11-03.md; reconcile any LGW work by verified task IDs/commits before marking it complete.
+
 - Project: SBT independent mobile GSR/EDA sensor concept, originating in Póta Tamás's November 2022 email to Tamás Sebestény.
 - Technical owner: Póta Tamás. External stakeholders: Sebestény Tamás and Tilli Adrienne, subject to access and collaboration approval.
 - Repository initially public; no confidential measurement data belongs here.
@@ -30,9 +40,9 @@
 
 - 2026-11-03 partner-facing editable Google Doc, created and verified under SBT/03: https://docs.google.com/document/d/1T9da1qlidI-9XIGKy2es-zZx0JvZz3y1ia3Ph8rnRk8/edit (includes research queries, software phases, and customer gate). This is a derived collaboration copy, not evidence that LeapSpace ran.
 
-## 2026-11-03 — Coordination moved to TRE; LeapSpace project chat continuity unverified
+## 2026-11-03 — Historical TRE handoff (SUPERSEDED at 20:44 CET)
 
-**Owner's latest instruction:** coordinate SBT product and research development **only through the TRE ChatGPT project**. This does not move SBT source code into the TRE repo: `tamaspota/SBT` remains canonical for technical implementation, tests, scientific acceptance and project decisions; TRE drives feasibility, user/payer discovery, research review and task routing; Drive SBT/03 remains the partner-facing workspace. LGW is not independently authorized to START SBT code tasks from its own chat; it may be a bounded TRE-selected executor only after normal LGW admission and resource safety.
+**Historical owner direction, since superseded:** coordinate SBT product and research development **only through the TRE ChatGPT project**. This does not move SBT source code into the TRE repo: `tamaspota/SBT` remains canonical for technical implementation, tests, scientific acceptance and project decisions; TRE drives feasibility, user/payer discovery, research review and task routing; Drive SBT/03 remains the partner-facing workspace. LGW is not independently authorized to START SBT code tasks from its own chat; it may be a bounded TRE-selected executor only after normal LGW admission and resource safety.
 
 **LeapSpace observed limitation:** owner created SBT and PhD projects, but reports new project conversations disappearing/losing project continuity; screenshot also shows SBT recent conversations, so persistence failure is **reported, not independently reproduced**. Composer restricts input to 500 characters. One Q1 EDA query returned `Retrieved references: 0`; no conclusions on EDA literature or electrode superiority may be drawn. Do not rely on the LeapSpace project for durable research history; export and verify original studies/DOIs externally. TRE handoff including exact prompt: [tamaspota/TRE/docs/SBT_LEAPSPACE_HANDOFF_2026-11-03.md](https://github.com/tamaspota/TRE/blob/main/docs/SBT_LEAPSPACE_HANDOFF_2026-11-03.md).
 
