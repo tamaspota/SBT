@@ -14,6 +14,9 @@ The idea was documented by Póta Tamás in a **10 November 2022** email to Tamá
 - [Product concept and alternatives](docs/PRODUCT_CONCEPT.md)
 - [Architecture sketch](docs/ARCHITECTURE.md)
 - [Validation plan](docs/VALIDATION_PLAN.md)
+- [LeapSpace research brief — prepared, not executed](research/LEAPSPACE_BRIEF_2026-11-03.md)
+- [Mobile software MVP plan](docs/SOFTWARE_MVP.md)
+- [Paid pilot customer-discovery questions](docs/CUSTOMER_PILOT_QUESTIONS.md)
 - [Decisions](docs/DECISIONS.md)
 - [Synthetic sensor telemetry](prototype/simulated_gsr.py) — **not real sensor measurements**.
 - [Tests](tests/test_simulated_gsr.py)
