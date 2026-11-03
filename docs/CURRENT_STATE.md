@@ -1,5 +1,13 @@
 # Current state — 2026-11-03
 
+## 2026-11-03 latest research receipt — Q1 report delivered
+
+- The owner placed a **14-page LeapSpace research PDF (46 references)** in [Drive SBT/03 / Leadspace](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). This is a real research output, replacing the earlier status of `no SBT Q1 PDF located`; [source PDF](https://drive.google.com/file/d/12q_RhdfrQzGpxOQ2Hcd0noWhSUeH7EWr/view?usp=drivesdk).
+- `LS-SBT-Q1-20261103-01`: `RESULT_RECEIVED / PARTIAL_SOURCE_REVIEW / SCIENTIFIC_ACCEPTANCE_PENDING`. Selected DOI abstracts and publisher/university bibliographic records checked; not all references, sample sizes or complete paper methods independently reviewed.
+- Main direction to **test**, not a fixed engineering decision: finger/palm reference, textile finger/glove concept, and dry wrist comfort candidate. Glove-specific live movement equivalence is not proven; numeric bench go/no-go criteria and electrical safety plan remain open.
+- Audit detail: `research/EVIDENCE_AUDIT_2026-11-03.md`; original Q1 handoff and result receipt: `research/LEAPSPACE_Q1_RUN_2026-11-03.md`. Q2-Q4 remain planning stage.
+- No new SBT mobile firmware/app, hardware benchmark, consumer health claim, LGW run result, business contract or ZYTO interoperability established by the PDF.
+
 ## 2026-11-03 — CURRENT COORDINATION UPDATE (LATEST OWNER DIRECTIVE)
 
 - Owner now explicitly requests **TRE ChatGPT to coordinate the next SBT research, bounded development task definition/review, and commercial validation from the present conversation**. This updates the 20:44 owner routing note **only for coordination**. SBT is still an **independent product/project** and `tamaspota/SBT` remains the technical authority; the repo is not folded into TRE.
