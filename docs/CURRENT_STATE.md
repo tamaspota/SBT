@@ -29,3 +29,12 @@
 - Next: owner launches independent LeapSpace queries, shares exported report with team via private SBT/03; review primary sources and choose lowest-cost bench GSR test before coding full mobile app.
 
 - 2026-11-03 partner-facing editable Google Doc, created and verified under SBT/03: https://docs.google.com/document/d/1T9da1qlidI-9XIGKy2es-zZx0JvZz3y1ia3Ph8rnRk8/edit (includes research queries, software phases, and customer gate). This is a derived collaboration copy, not evidence that LeapSpace ran.
+
+## 2026-11-03 — Coordination moved to TRE; LeapSpace project chat continuity unverified
+
+**Owner's latest instruction:** coordinate SBT product and research development **only through the TRE ChatGPT project**. This does not move SBT source code into the TRE repo: `tamaspota/SBT` remains canonical for technical implementation, tests, scientific acceptance and project decisions; TRE drives feasibility, user/payer discovery, research review and task routing; Drive SBT/03 remains the partner-facing workspace. LGW is not independently authorized to START SBT code tasks from its own chat; it may be a bounded TRE-selected executor only after normal LGW admission and resource safety.
+
+**LeapSpace observed limitation:** owner created SBT and PhD projects, but reports new project conversations disappearing/losing project continuity; screenshot also shows SBT recent conversations, so persistence failure is **reported, not independently reproduced**. Composer restricts input to 500 characters. One Q1 EDA query returned `Retrieved references: 0`; no conclusions on EDA literature or electrode superiority may be drawn. Do not rely on the LeapSpace project for durable research history; export and verify original studies/DOIs externally. TRE handoff including exact prompt: [tamaspota/TRE/docs/SBT_LEAPSPACE_HANDOFF_2026-11-03.md](https://github.com/tamaspota/TRE/blob/main/docs/SBT_LEAPSPACE_HANDOFF_2026-11-03.md).
+
+**Current technical stage unchanged:** independent, non-diagnostic mobile GSR/EDA bench feasibility only. No sensor design selected, validated prototype, commercial customer, Deep Research evidence, BLE build or ZYTO compatibility proven by this handoff. Next research gate is reproducible electrode comparison with a falsifiable, safe bench/volunteer protocol, reviewed DOI literature and customer pilot acceptance criteria.
+
