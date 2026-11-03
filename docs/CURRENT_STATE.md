@@ -1,5 +1,14 @@
 # Current state — 2026-11-03
 
+## 2026-11-03 — CURRENT COORDINATION UPDATE (LATEST OWNER DIRECTIVE)
+
+- Owner now explicitly requests **TRE ChatGPT to coordinate the next SBT research, bounded development task definition/review, and commercial validation from the present conversation**. This updates the 20:44 owner routing note **only for coordination**. SBT is still an **independent product/project** and `tamaspota/SBT` remains the technical authority; the repo is not folded into TRE.
+- LGW remains the **designated technical executor**, but actual accepted LGW task IDs, commits and tests are not verified in this session. TRE must not assume a job has started or bypass LGW dispatch/safety.
+- First evidence review is saved in `research/EVIDENCE_AUDIT_2026-11-03.md`: two wrist/palm studies and methodological guidance checked via DOI/abstract, one artifact paper has a 2026 editor's note requiring review. No complete SBT LeapSpace report accepted.
+- Existing Q1 LeapSpace "Retrieved references: 0" is a search failure, **not** negative evidence. No validated glove-comparator study, safe electronic front-end, real BLE/mobile application, commercial buyer or ZYTO interface has been established.
+- Nine additional screenshots were received in chat, but not individually accessible as files in the connected file list; their contents are not interpreted or treated as verified scientific results.
+- Next: verify additional research exports and DOI paper methods; select bench-only sensor measurement contract and ask SBT collaborators the minimum paid pilot problem/acceptance; hand a bounded approved implementation packet to LGW only when needed.
+
 ## 2026-11-03 20:44 CET — OWNER CORRECTION: SBT IS A SEPARATE PROJECT (CURRENT)
 
 - SBT is an **independent project**, intended to have its own ChatGPT Project context. Its creation/configuration in ChatGPT has **not been verified in this session**; do not claim a new ChatGPT Project was created by this repository edit.
