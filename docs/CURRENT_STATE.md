@@ -1,5 +1,13 @@
 # Current state — 2026-11-03
 
+## 2026-11-03 22:01 CET – Q2 returned; Q3–Q7 prepared
+
+- The **17-page Q2 analog-front-end Deep Research PDF** was deposited by the owner in [SBT/03/Leadspace](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). [Direct file](https://drive.google.com/file/d/1KKNjZOZKnmPfxfRne-vsvCK1_udLJ-sT/view?usp=drivesdk). `LS-SBT-Q2-20261103-01 = RESULT_RECEIVED / INITIAL_DOI_SPOTCHECK / SCIENTIFIC_ACCEPTANCE_PENDING`. Three relevant paper DOIs verified at bibliography/abstract level.
+- Source report discusses fixed-voltage DC vs AC drift; its approximately 0.5-V DC and proposed <=1% fixed-load precision are *research-context candidate parameters*, not measured SBT performance or human-safety approval. Missing electrical current limiting, fault/ESD, contact-quality and calibration uncertainty thresholds remain design gates.
+- **Five bounded future prompts** Q3–Q7 are saved in `research/LEAPSPACE_RESEARCH_QUEUE_2026-11-03.md`. All `PREPARED / NOT_SUBMITTED`; no automated or background Deep Research has started. User may manually run one at a time, export PDFs to Drive SBT/03/Leadspace and then request independent audit.
+- Priority next: Q3 reporting/interpretation limitations; Q4 actual glove motion/contact comparison; Q5 quantifiable reference R/RC metrology; Q7 safety/regulatory gates; Q6 BLE iOS/Android data integrity. Order within this prepared batch may vary with owner time and paper availability.
+- Standalone SBT technical source remains `tamaspota/SBT`; LGW technical execution and TRE commercial support remain separate. No new prototype or paid pilot implied.
+
 ## 2026-11-03 latest research receipt — Q1 report delivered
 
 - The owner placed a **14-page LeapSpace research PDF (46 references)** in [Drive SBT/03 / Leadspace](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). This is a real research output, replacing the earlier status of `no SBT Q1 PDF located`; [source PDF](https://drive.google.com/file/d/12q_RhdfrQzGpxOQ2Hcd0noWhSUeH7EWr/view?usp=drivesdk).
