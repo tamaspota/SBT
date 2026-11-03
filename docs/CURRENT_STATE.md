@@ -27,3 +27,5 @@
 - Commercial first gate: next meeting should yield an explicit customer pain, written pilot acceptance criteria, and payer/budget hypothesis (see `docs/CUSTOMER_PILOT_QUESTIONS.md`).
 - External evidence: https://zyto.com/hand-cradle/ (GSR / USB); https://zyto.com/about/ (existing ZYTO mobile offerings). Do not market mobile-only as novel.
 - Next: owner launches independent LeapSpace queries, shares exported report with team via private SBT/03; review primary sources and choose lowest-cost bench GSR test before coding full mobile app.
+
+- 2026-11-03 partner-facing editable Google Doc, created and verified under SBT/03: https://docs.google.com/document/d/1T9da1qlidI-9XIGKy2es-zZx0JvZz3y1ia3Ph8rnRk8/edit (includes research queries, software phases, and customer gate). This is a derived collaboration copy, not evidence that LeapSpace ran.
