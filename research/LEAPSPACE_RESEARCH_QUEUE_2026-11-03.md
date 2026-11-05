@@ -11,7 +11,25 @@
 - The research tool is a literature synthesis system, **not an electronics design approval or a medical certification authority**. Independently check primary papers/standards, DOI, methods, N and quantitative results; mark conflicts. No proprietary ZYTO data or personal medical files in LeapSpace.
 - Record each run as `PREPARED` → `RESULT_RECEIVED` → `SOURCE_CHECKED_PARTIAL` → `SCIENTIFICALLY_ACCEPTED` only after evidence review. Stop/restrict use if the provider reports quota/rate-limit constraints; no attempts to evade them.
 
-## AKTUÁLIS ÁLLAPOT – 2026-11-05 (az alábbi november 3-i állapot történeti)
+## LEGFRISSEBB STÁTUSZ – 2026-11-05 Q8 után
+
+**Q4-R és Q8 elkészült és archiválva**. A Drive-mappa **9 PDF-et** tartalmaz: Q1, Q2, Q3, Q4-R, Q5 két riport, Q6, Q7, Q8. A korábbi, alább található Q4-R/Q8 `PREPARED` megjelölés **történeti, mára felülírt**. A Q4-R és Q8 elsődleges hivatkozásainak egy része függetlenül ellenőrzött; a végleges technikai elfogadás **NINCS meg**. [Teljes Q4/Q8 forrásértékelés](Q4_Q8_EVIDENCE_REVIEW_2026-11-05.md).
+
+| Kérdés | Aktuális státusz | PDF |
+| --- | --- | --- |
+| Q4-R – kesztyű | `RESULT_RECEIVED / PRIMARY_SOURCE_CHECK_PARTIAL / ACCEPTANCE_PENDING` | [PDF](https://drive.google.com/file/d/1VAcpQh8jITp01oSUaZwF6MuxLJK1EUDO/view) |
+| Q8 – mérőpad | `RESULT_RECEIVED / PRIMARY_SOURCE_CHECK_PARTIAL / ACCEPTANCE_PENDING` | [PDF](https://drive.google.com/file/d/1x_ZXhDxgN5rpOwNG1Fjl8SSUnA-a82gU/view) |
+| Q9 – kontaktus és mozgás | `PREPARED / NOT_SUBMITTED` | – |
+| Q10 – szabványok és EU | `PREPARED / NOT_SUBMITTED` | – |
+| Q11 – SCL/SCR pipeline | `PREPARED / NOT_SUBMITTED` | – |
+
+**LeapSpace hozzáférés:** a felhasználó képernyőképén `We detected unusual activity` szerepel. Oka ismeretlen; a felhasználó kézzel másolt, nem feltételezünk botot. A további Q9–Q11 feladatok csak a korlátozás feloldása után, manuálisan, sorban indíthatók; **nem indítottunk új futtatást**.
+
+**Azonnal elvégezhető, LeapSpace nélküli SBT munka:** [passzív referenciaellenállásos bench validációterv](../docs/GSR_BENCH_VALIDATION_DRAFT_2026-11-05.md); [jóváhagyásra váró LGW szoftveres task](../docs/LGW_BENCH_SOFTWARE_TASK_2026-11-05.md).
+
+---
+
+## KORÁBBI ÁLLAPOT – 2026-11-05 (Q4-R és Q8 előtti snapshot) (az alábbi november 3-i állapot történeti)
 
 **7 PDF / 6 téma:** Q1, Q2, Q3, Q5 (két önálló eredmény), Q6 és Q7 ténylegesen megvan a [Leadspace Drive-mappában](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). **Q4 nincs kész PDF-ként archiválva.** Az új Q3/Q5/Q6/Q7 jelentések státusza `RESULT_RECEIVED / SOURCE_AUDIT_PENDING`, nem `SCIENTIFICALLY_ACCEPTED`. A pontos PDF-linkek és a kutatási hiányosságok: [2026-11-05 bizonyítékaudit](LEAPSPACE_AUDIT_2026-11-05.md).
 
