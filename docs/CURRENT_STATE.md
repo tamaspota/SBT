@@ -1,5 +1,14 @@
 # Current state — 2026-11-03
 
+## 2026-11-05 – új termékkoncepció: önálló Raspberry Pi készülék (LATEST)
+
+- **Friss tulajdonosi irány:** a korábban elsődlegesnek tervezett natív Android/iOS alkalmazás helyett a következő pilothoz **önálló Raspberry Pi-alapú, helyi kijelzős GSR/EDA készülék** alternatíváját kell tervezni. A felhasználó 2026-11-04-én Adrival beszélt a megoldásról; a részletek további egyeztetés tárgyai.
+- **Nem kész és nem kiválasztott:** Pi 4B vagy Pi Zero 2 W, 3–10 hüvelyk közötti több kijelzőkonfiguráció, adaptív közös alkalmazáskód és 3D-nyomtatott ház **javaslatok**. Fogyasztást, mérés közbeni akkumulátorbiztonságot, számítási erőforrást, használhatóságot és kijelző-/táp-kompatibilitást ellenőrizni kell, különösen Pi Zero 2 W esetén.
+- Első műszaki gate változatlan: **szimulált adatkontraktus és referenciaellenállásos EDA mérőpad**; nem épült működő hardver, nem validáltunk klinikai ZYTO-integrációt vagy emberi mérést. Saját, dokumentált adatút és helyi mentés marad cél. A BLE/mobiltelefonos kiegészítő későbbi opcionális irány lehet, nem jelenlegi első MVP-követelmény.
+- Üzleti modell: készülék + saját szoftver; licencdíjas modell vagy ingyenes szoftveralap és fizetős mérés/szolgáltatás egyelőre **egyeztetési hipotézis**, nem elfogadott árképzés vagy ügyfélvállalás.
+- Legfrissebb SBT Leadspace Drive-lista: **14 PDF**, benne 11 alapkérdés és kiegészítő/ismételt kutatások. A két 2026-11-05 12:37 UTC időbélyegű Q4/Q8 utókutatás szerint a GitHub-forrás és a célcikkek teljes módszertana nem volt hozzáférhető a LeapSpace-ben. Ezek **nem számítanak független elsődleges forrásellenőrzésnek**, és nem írják felül `research/Q4_Q8_EVIDENCE_REVIEW_2026-11-05.md` korábbi, külön végzett forrásauditját.
+- A korábbi `docs/SOFTWARE_MVP.md`, `docs/ARCHITECTURE.md`, `docs/PRODUCT_CONCEPT.md` telefonközpontú v0.1 részletei **történeti koncepciók**, nem az új induló kivitel véglegesen jóváhagyott műszaki terve. Döntés: `docs/DECISIONS.md` D-011.
+
 ## 2026-11-05 – Q1–Q11 teljes kutatási kör beérkezett (LATEST)
 
 - A SBT/03/Leadspace mappa aktuálisan **12 PDF-et** tartalmaz. A kutatási kör témái: Q1, Q2, Q3, Q4-R, Q5 (2 beszámoló), Q6, Q7, Q8, Q9, Q10, Q11. **Q9, Q10 és Q11 tényleges PDF-jei beérkeztek**; a korábbi `Q9–Q11 PREPARED` és `9 PDF` bejegyzések történeti állapotok, nem aktuálisak.
