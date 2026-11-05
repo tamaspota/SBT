@@ -1,5 +1,13 @@
 # Mobile GSR companion software — MVP design v0.1
 
+## Owner scope update — 2026-11-05 (appliance-first; SPEC ONLY)
+
+For the initial SBT product, **a Raspberry Pi-based self-contained touchscreen appliance is now the prioritized architecture candidate** rather than a separately maintained Android/iOS native companion app. Compute: Pi 4B or Pi Zero 2 W not selected; expected UI screen configurations ~3–10 inches; same business logic with adaptive touchscreen layout is a **goal to verify**, not a proven one-build guarantee. Device's power/display/driver/software resource needs and battery/charging safety are yet to be measured. Software core requirements remain raw µS records, monotonic time, contact/signal-quality flagging, simulated-vs-measured provenance, local exports, non-diagnostic scope, unit tests.
+
+**Phase M0:** existing Python simulation + deterministic bench fixture/load contract. **Phase M1 candidate:** local Raspberry Pi UI with simulated sensor only, after benchmarking actual hardware/driver resources; **Phase M2 candidate:** safe measured EDA front end integrated and checked against passive calibrated resistors. No human-measurement phase without separate electrical safety/privacy review. Any BLE/phone viewer may be added later only if customer need justifies it. License vs free base software/paid measurement is a commercial idea only.
+
+The remainder of this file is the previous **historical phone-first v0.1 plan**, superseded as first-product priority by `docs/DECISIONS.md` D-011. No code or app has been implemented by recording this update.
+
 **Status:** SPEC ONLY as of 2026-11-03. No mobile app or BLE device has been implemented. The current Python prototype generates explicitly synthetic GSR/EDA samples.
 
 ## Purpose
