@@ -1,5 +1,14 @@
 # Current state — 2026-11-03
 
+## 2026-11-05 – Q4-R/Q8 feldolgozva, LeapSpace korlátozva (LATEST)
+
+- A SBT/03/Leadspace Drive-mappában már **9 PDF van**; a 2026-11-05-i korábbi `7 PDF / Q4 hiányzik` bejegyzés csak az előző időpont snapshotja. Q4-R és Q8 dokumentum beérkezett: [Q4-R](https://drive.google.com/file/d/1VAcpQh8jITp01oSUaZwF6MuxLJK1EUDO/view), [Q8](https://drive.google.com/file/d/1x_ZXhDxgN5rpOwNG1Fjl8SSUnA-a82gU/view).
+- LeapSpace Q4-R / Q8 státusz: `RESULT_RECEIVED / SELECTIVE_PRIMARY_SOURCE_CHECK_PASSED / FULL_ACCEPTANCE_PENDING`. Elsődleges részletek/korlátok: `research/Q4_Q8_EVIDENCE_REVIEW_2026-11-05.md`; frissített kutatási jegyzék: `research/LEAPSPACE_AUDIT_2026-11-05.md` és `research/LEAPSPACE_RESEARCH_QUEUE_2026-11-03.md`.
+- **Q4 elsődleges mérési bizonyíték:** Lanatà et al. 2012 DOI 10.1007/s11517-012-0921-9 valódi Lycra-elektródás kesztyű, 1×1 cm-es textilkontaktus, Biopac referencia, tonic/phasic Spearman korrelációk; a 35 fős minta az affektív vizsgálathoz tartozik. Mozgási artefaktumok mérése a cikkben csak jövőbeli munka volt. Nem döntöttünk végleges SBT kesztyűkonstrukcióról.
+- **Q8 elsődleges metrológiai bizonyíték:** Geršak & Drnovšek 2020 DOI 10.1371/journal.pone.0228949 nyílt cikke 100 kΩ/10 µS statikus referenciát és mesterséges kéz/optocsatolós változóellenállásos EDA szimulátort ír le, miközben a LeapSpace Q8 futás ezeket nem tudta visszakeresni. Ez keresési, nem tudományos hiány.
+- Elkészült **bench-only** GSR referenciamérési terv `docs/GSR_BENCH_VALIDATION_DRAFT_2026-11-05.md` és **jóváhagyásra váró, NEM DISPATCHED** LGW implementációs task `docs/LGW_BENCH_SOFTWARE_TASK_2026-11-05.md`. Nincs fizikai mérés, emberi vizsgálat, kész firmware/app vagy elfogadott numerikus berendezésteszt.
+- A felhasználó új képernyőképe egy `We detected unusual activity` LeapSpace-korlátozást mutat. Oka/kvótaszáma ismeretlen; felhasználó manuális használatról számol be. Q9–Q11 nincs dokumentáltan lefuttatva, korlátozást nem kerülünk meg.
+
 ## 2026-11-05 – aktuális LeapSpace kutatásállapot (elsőként ezt olvasd)
 
 - Az SBT/03/Leadspace Drive-almappában 7 tényleges kutatási PDF található, hat külön témakörben: Q1, Q2, Q3, Q5 kétszer, Q6, Q7. **Q4 kész riportja nincs archiválva.** A korábbi 2026-11-03-i `Q3–Q7 PREPARED` státusz nem aktuális.
