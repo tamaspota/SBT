@@ -1,5 +1,15 @@
 # SBT LeapSpace report receipt and evidence audit — 2026-11-05
 
+## 2026-11-05 final archive update – 12 PDFs, Q1–Q11 covered
+
+**Latest archive receipt:** 12 PDF files in SBT Drive/03/Leadspace, spanning Q1, Q2, Q3, Q4-R, Q5×2, Q6, Q7, Q8, Q9, Q10 and Q11. This supersedes the `9 PDFs` and `7 PDFs` historical counts below. Three new delivered reports:
+
+- Q9 [motion/contact artifacts](https://drive.google.com/file/d/1hGfSL-0aKVym78WZjmuVTum6A8XVQZ6R/view): distinguishes artifact segment screening from actual false/missed SCR events. Does not fully verify per-event detection rates in a complete comparable primary-study design.
+- Q10 [regulatory/safety](https://drive.google.com/file/d/17wXd5AbGCziWYIqmreh_GyPlFVtuyJz3/view): intended-purpose MDR vs wellness scope is addressed, but no exhaustive authoritative article/edition/OJEU matrix or safe current limit.
+- Q11 [SCL/SCR decomposition](https://drive.google.com/file/d/1j6bOfoPY6FUe35rw6zrGkTElxUHfxbNG/view): candidate cvxEDA/Ledalab/SparsEDA/Bayesian methods; lacks a unified event-level wearable head-to-head accuracy, latency and mobile energy benchmark.
+
+**Detailed audit:** [Q9–Q11 report findings, limits and next test gates](LEAPSPACE_Q9_Q11_REVIEW_2026-11-05.md). **Recommendation:** stop broad Deep Research; focus on bench reference resistor and raw-data/quality-flag software contract; targeted primary-paper validation and official regulatory/safety review remain required before any human/device release. Research reports != independently validated specifications. Q9–Q11 status `REPORT_RECEIVED / CONTENT_REVIEWED / PRIMARY_DOI_METHOD_AUDIT_OPEN`.
+
 ## 2026-11-05 later update: Q4-R and Q8 arrived, 9 PDFs / 7 topics
 
 **LATEST:** Two additional source PDFs are now in the **same** SBT Drive Leadspace folder. The earlier count of seven below was a time-stamped previous snapshot; **now 9 PDF files representing Q1, Q2, Q3, Q4-R, Q5 twice, Q6, Q7, Q8**.
