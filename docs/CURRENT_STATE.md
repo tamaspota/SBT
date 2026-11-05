@@ -1,5 +1,13 @@
 # Current state — 2026-11-03
 
+## 2026-11-05 – Q1–Q11 teljes kutatási kör beérkezett (LATEST)
+
+- A SBT/03/Leadspace mappa aktuálisan **12 PDF-et** tartalmaz. A kutatási kör témái: Q1, Q2, Q3, Q4-R, Q5 (2 beszámoló), Q6, Q7, Q8, Q9, Q10, Q11. **Q9, Q10 és Q11 tényleges PDF-jei beérkeztek**; a korábbi `Q9–Q11 PREPARED` és `9 PDF` bejegyzések történeti állapotok, nem aktuálisak.
+- Q9: mozgás/kontaktushiba és false/missed SCR-eseményeket tárgyaló szintézis; a primer event-level referencia és számszerű elemzés hiányos. Q10: MDR vs wellness intended-use, RED/EMC/RoHS/Battery/GDPR kapuk; a hivatalos jogszabályi cikkek és aktuális EN/IEC harmonizált szabványok részletes auditja hiányzik. Q11: cvxEDA, CDA/Ledalab, SparsEDA és egyéb SCL/SCR algoritmusok; nincs elfogadott közös eseményszintű mobilbenchmark vagy validált SBT algoritmus.
+- Három új PDF és aktuális forráshatárok: `research/LEAPSPACE_Q9_Q11_REVIEW_2026-11-05.md`; teljes korábbi audit: `research/LEAPSPACE_AUDIT_2026-11-05.md`.
+- **Döntés erre a kutatási kapura:** további **általános LeapSpace Deep Research-futtatás nem indokolt** a bench-only MVP-hez. A következő munka ellenőrizhető mérnöki feladat: referenciaellenállásos szimulátor/adatkontraktus (LGW task `docs/LGW_BENCH_SOFTWARE_TASK_2026-11-05.md`, még **NEM DISPATCHED**), benchtop referencia-elektronikai tesztterv, majd valós hardver csak explicit biztonsági kapu után. Ne építsünk teljes BLE appot, kesztyűt, Cloudflare backend-et vagy gyártást validált követelmények nélkül.
+- A felhasználói LEAPSPACE Q1–Q11 kutatási futtatások kimenetei **RECEIVED / CONTENT_REVIEWED**, a teljes DOI/módszertani audit, eszközteszt és jogi megfelelőség **NEM lezárt**. A szolgáltató `unusual activity` hibájának oka továbbra sem igazolt; nincs szükség újabb futtatásra vagy kvótamegkerülésre.
+
 ## 2026-11-05 – Q4-R/Q8 feldolgozva, LeapSpace korlátozva (LATEST)
 
 - A SBT/03/Leadspace Drive-mappában már **9 PDF van**; a 2026-11-05-i korábbi `7 PDF / Q4 hiányzik` bejegyzés csak az előző időpont snapshotja. Q4-R és Q8 dokumentum beérkezett: [Q4-R](https://drive.google.com/file/d/1VAcpQh8jITp01oSUaZwF6MuxLJK1EUDO/view), [Q8](https://drive.google.com/file/d/1x_ZXhDxgN5rpOwNG1Fjl8SSUnA-a82gU/view).
