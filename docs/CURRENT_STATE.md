@@ -1,5 +1,16 @@
 # Current state — 2026-11-03
 
+## 2026-11-05 – aktuális LeapSpace kutatásállapot (elsőként ezt olvasd)
+
+- Az SBT/03/Leadspace Drive-almappában 7 tényleges kutatási PDF található, hat külön témakörben: Q1, Q2, Q3, Q5 kétszer, Q6, Q7. **Q4 kész riportja nincs archiválva.** A korábbi 2026-11-03-i `Q3–Q7 PREPARED` státusz nem aktuális.
+- Teljes, forráslinkekkel ellátott 2026-11-05 audit: `research/LEAPSPACE_AUDIT_2026-11-05.md`.
+- Másolható, 500 karakter alatti aktuális hiánypótló promptok: `research/LEAPSPACE_RESEARCH_QUEUE_2026-11-03.md` elején Q4-R, Q8–Q11.
+- A PDF-ek **beérkezett kutatási összefoglalók**, nem teljesen forrásellenőrzött tudományos bizonyítékok. Q5-ben a két beszámoló sem egy független, teljesen reprodukált méréssor; a referenciaellenállás/RC-módszer és számított pontosság validációja nyitott.
+- Az egyik fő hiány a valódi kesztyűs GSR-elektróda közvetlen referenciamérése; továbbiak: visszaépíthető mérőpad, kontaktus/mozgási artefaktumok, pontos szabványalkalmazás, iOS/Android háttértesztek.
+- Hivatalos Apple Core Bluetooth és Android BLE dokumentáció közvetlenül rendelkezésre áll; a Q6 riport nem helyettesíti a két platform tényleges tesztjét. Jogszabályi elemzéshez aktuális EUR-Lex MDR-szöveg szükséges; Q7 önmagában nem tanúsítás.
+- A felhasználó szerint a LeapSpace hozzáférés ma kevésbé korlátozott, de tényleges korlátlan párhuzamos futási jogosultság nincs ellenőrizve. Javasolt kézi, egyenkénti kutatási futtatás, és a hibák rögzítése; ne kerüljük meg a szolgáltatói korlátokat.
+- Változatlan: nincs igazolt GSR-mérőhardver, biztonsági tanúsítás, ZYTO-interfész vagy működő valós BLE-mérési mobilalkalmazás. Az SBT önálló projekt, az LGW csak ellenőrzött műszaki végrehajtóként, a TRE üzleti együttműködőként működik.
+
 ## 2026-11-03 22:01 CET – Q2 returned; Q3–Q7 prepared
 
 - The **17-page Q2 analog-front-end Deep Research PDF** was deposited by the owner in [SBT/03/Leadspace](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). [Direct file](https://drive.google.com/file/d/1KKNjZOZKnmPfxfRne-vsvCK1_udLJ-sT/view?usp=drivesdk). `LS-SBT-Q2-20261103-01 = RESULT_RECEIVED / INITIAL_DOI_SPOTCHECK / SCIENTIFIC_ACCEPTANCE_PENDING`. Three relevant paper DOIs verified at bibliography/abstract level.
