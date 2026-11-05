@@ -1,5 +1,15 @@
 # SBT mobile sensor concept — v0.1
 
+## Owner update – 2026-11-05: standalone Pi touchscreen direction
+
+**Candidate first product:** self-contained EDA/GSR measurement appliance, Raspberry Pi compute (Pi 4B or Pi Zero 2 W as **unselected candidates**), integrated touchscreen approx. 3–10 inches, adaptable common software codebase, possible 3D-printed enclosure. The owner decided to **de-prioritize separate Android/iOS native apps** due to long-term maintenance/platform variation; a future mobile companion is optional, not the pilot baseline.
+
+**NOT validated:** Pi model, CPU/RAM footprint, boot/measurement latency, display resolution and drivers, battery capacity/run time, safety during charging, 3D printed ergonomics, BOM, legal/regulatory position, app portability or measurement equivalence. First engineer/bench gate remains traceable resistance–conductance calibration and `SIMULATED` vs `MEASURED` provenance.
+
+**Business model under discussion:** sale of a dedicated appliance, optional software license or free base software with paid measurements/services. Pricing/payment/measurement entitlement and privacy regulatory implications require real customer validation; no commitment has been made.
+
+The following 2022 historical origin and v0.1 phone/BLE alternatives remain **historical possibilities**, superseded for first-product planning by this owner direction. See `docs/DECISIONS.md` D-011.
+
 ## Historical origin
 
 Tamás Póta's own November 2022 email already proposed replacing the legacy USB Windows Hand Cradle with a battery-powered mobile Android device, Bluetooth or Wi-Fi communications, a potentially self-contained unit and a rebuilt independent software layer. No teardown or validated ZYTO protocol was documented then. The current owner adds a wearable / glove option and iOS compatibility to the development hypotheses.
