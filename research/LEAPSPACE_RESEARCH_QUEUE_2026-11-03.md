@@ -11,7 +11,49 @@
 - The research tool is a literature synthesis system, **not an electronics design approval or a medical certification authority**. Independently check primary papers/standards, DOI, methods, N and quantitative results; mark conflicts. No proprietary ZYTO data or personal medical files in LeapSpace.
 - Record each run as `PREPARED` → `RESULT_RECEIVED` → `SOURCE_CHECKED_PARTIAL` → `SCIENTIFICALLY_ACCEPTED` only after evidence review. Stop/restrict use if the provider reports quota/rate-limit constraints; no attempts to evade them.
 
-## Status at creation
+## AKTUÁLIS ÁLLAPOT – 2026-11-05 (az alábbi november 3-i állapot történeti)
+
+**7 PDF / 6 téma:** Q1, Q2, Q3, Q5 (két önálló eredmény), Q6 és Q7 ténylegesen megvan a [Leadspace Drive-mappában](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). **Q4 nincs kész PDF-ként archiválva.** Az új Q3/Q5/Q6/Q7 jelentések státusza `RESULT_RECEIVED / SOURCE_AUDIT_PENDING`, nem `SCIENTIFICALLY_ACCEPTED`. A pontos PDF-linkek és a kutatási hiányosságok: [2026-11-05 bizonyítékaudit](LEAPSPACE_AUDIT_2026-11-05.md).
+
+**Módszer:** egyetlen aktív, kézzel indított Deep Research-kérdés egyszerre; nincs megerősített korlátlan kvóta. A források eredeti DOI-ját, mintaelemszámát, módszerét és állított mérési határértékeit külön ellenőrizni kell. Személyes ZYTO-riportokat nem küldünk a szolgáltatónak.
+
+### Javasolt következő kutatások (Q4-R és Q8–Q11)
+
+#### Q4-R – Kész GSR-kesztyű mérési bizonyítéka [P0] (467/500 karakter)
+
+**Állapot:** `PREPARED / NOT_SUBMITTED`
+
+> Find primary EDA/GSR trials that tested a complete wearable textile glove, not just textile patches on fingers. Start with DOI 10.3390/bios8030079 and 10.1109/SEGAH54908.2022.9978571; check whether either tested a finished glove. For each true glove trial give DOI, N, Ag/AgCl comparator, material, electrode layout, fit/pressure, movement and quantitative agreement. If no direct comparison exists, say so. Propose bench contact tests; do not imply human-use safety.
+
+#### Q8 – Reprodukálható GSR referencia-mérőpad [P0] (441/500 karakter)
+
+**Állapot:** `PREPARED / NOT_SUBMITTED`
+
+> Using primary metrology papers DOI 10.1371/journal.pone.0228949 and 10.1016/j.measen.2024.101075, extract reproducible EDA instrument test methods. List actual reference-resistor values, tolerances, simulator circuit, sample rate, reference meter, bias, noise, drift, time constants and uncertainty. Give page/table/figure identifiers and check each DOI/claim. Separate reported results from SBT project acceptance proposals; no human tests.
+
+#### Q9 – Mozgási műtermék és kontaktushiba [P1] (463/500 karakter)
+
+**Állapot:** `PREPARED / NOT_SUBMITTED`
+
+> Find primary field studies measuring contact-loss and motion artifacts in wrist, palm and finger EDA during walking, hand use and sleep. For each give DOI, N, reference measurement, electrode geometry, raw sampling, movement labeling and quantified false SCR events or missed events. Distinguish measured rates from assumptions. Propose quality flags, an artifact-labeled dataset schema and non-diagnostic acceptance tests; explicitly report missing ground truth.
+
+#### Q10 – Hivatalos EU jog és szabványalkalmazhatóság [P1] (480/500 karakter)
+
+**Állapot:** `PREPARED / NOT_SUBMITTED`
+
+> Using current official EU MDR, RED, EMC, RoHS, Batteries Regulation and GDPR texts plus authoritative IEC/EN catalogs, determine which rules may apply to a battery BLE EDA research/wellness wearable vs a medical-purpose device. Cite exact article/annex and current standard edition with source URL. List RF, skin-contact, charging, leakage/fault, cybersecurity and data tests; mark conditional applicability and unknowns. Do not invent legal exemptions or safe current thresholds.
+
+#### Q11 – SCL/SCR jelkinyerés szoftveres validációja [P2] (493/500 karakter)
+
+**Állapot:** `PREPARED / NOT_SUBMITTED`
+
+> Compare validated open-source algorithms for separating tonic SCL and phasic SCR in wearable EDA recordings (4-32 Hz). Seek original benchmark papers with DOI and available datasets/code; report filtering delay, events missed, motion-artifact sensitivity, inter-subject variability, computational cost and ground-truth limitations. Recommend a minimum offline, on-phone non-diagnostic pipeline preserving raw values and contact-quality flags. Include reproducible tests and uncertainty labels.
+
+**Eredmény:** a teljes PDF forrásjegyzékkel az eredeti [SBT Leadspace Drive-mappába](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c), majd forrásellenőrzés és GitHub-naplózás. Nem futtatunk újra Q3/Q5/Q6/Q7 általános kérdéseket változatlan formában.
+
+---
+
+## TÖRTÉNETI állapot – 2026-11-03
 
 | ID | Status | Output |
 | --- | --- | --- |
