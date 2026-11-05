@@ -1,5 +1,17 @@
 # SBT LeapSpace report receipt and evidence audit — 2026-11-05
 
+## 2026-11-05 later update: Q4-R and Q8 arrived, 9 PDFs / 7 topics
+
+**LATEST:** Two additional source PDFs are now in the **same** SBT Drive Leadspace folder. The earlier count of seven below was a time-stamped previous snapshot; **now 9 PDF files representing Q1, Q2, Q3, Q4-R, Q5 twice, Q6, Q7, Q8**.
+
+- Q4-R [Full textile-glove report](https://drive.google.com/file/d/1VAcpQh8jITp01oSUaZwF6MuxLJK1EUDO/view) — `RESULT_RECEIVED / SELECTIVE_PRIMARY_SOURCE_CHECK_PASSED / FULL_ACCEPTANCE_PENDING`.
+- Q8 [Metrology report](https://drive.google.com/file/d/1x_ZXhDxgN5rpOwNG1Fjl8SSUnA-a82gU/view) — `RESULT_RECEIVED / SELECTIVE_PRIMARY_SOURCE_CHECK_PASSED / FULL_ACCEPTANCE_PENDING`.
+- Independent primary source verification **strengthens Q4-R**: Lanatà et al. (2012), DOI [10.1007/s11517-012-0921-9](https://doi.org/10.1007/s11517-012-0921-9), actually built a Lycra textile-fingertip glove; reported tonic Spearman 0.957 ± 0.024, phasic 0.995 ± 0.001, whole response 0.960 ± 0.031 vs standard electrodes. The study's **35 participants** refer to an affective classification experiment; motion-artifact evaluation was explicitly future work. **Not** SBT accuracy validation.
+- Independent open-primary verification **corrects Q8's retrieval failure**: Geršak & Drnovšek (2020), DOI [10.1371/journal.pone.0228949](https://doi.org/10.1371/journal.pone.0228949), publishes a 100 kΩ ⇔ 10 µS calibration state, optocoupler-based variable resistance/artificial hand, and simulated SCR amplitude/frequency examples. These are published **bench simulator examples**, not validated SBT acceptance thresholds.
+- EmotiBit (2024) source identity DOI [10.1016/j.measen.2024.101075](https://doi.org/10.1016/j.measen.2024.101075) verified bibliographically, but its exact resistor/accuracy tables not fully verified.
+- Detailed methods/risks: [Q4-R and Q8 source review](Q4_Q8_EVIDENCE_REVIEW_2026-11-05.md); bench-only next work: [GSR test plan](../docs/GSR_BENCH_VALIDATION_DRAFT_2026-11-05.md). There are **no confirmed Q9-Q11 reports** in the inspected Drive.
+- Owner provided a screenshot of provider-wide `We detected unusual activity` restriction. They reported manual use only; reason/provider quota **unverified**. Do not retry concurrently or evade provider controls.
+
 ## Outcome
 **Seven source PDFs, six topics** found under [SBT Drive/03 / Leadspace](https://drive.google.com/drive/folders/1a_X07p0qbQVS43aQKWwnH-vdXhkrKm7c). Q1,Q2,Q3,Q5 twice,Q6,Q7 are **RECEIVED**, not scientifically accepted. **Q4 complete glove validation report was not present** in that folder; this says nothing about whether the provider attempted or failed the query. The five newer PDFs were opened for readable source inspection; complete bibliographic verification of their primary studies is NOT done.
 
