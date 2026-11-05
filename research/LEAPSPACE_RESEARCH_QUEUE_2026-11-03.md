@@ -11,7 +11,21 @@
 - The research tool is a literature synthesis system, **not an electronics design approval or a medical certification authority**. Independently check primary papers/standards, DOI, methods, N and quantitative results; mark conflicts. No proprietary ZYTO data or personal medical files in LeapSpace.
 - Record each run as `PREPARED` → `RESULT_RECEIVED` → `SOURCE_CHECKED_PARTIAL` → `SCIENTIFICALLY_ACCEPTED` only after evidence review. Stop/restrict use if the provider reports quota/rate-limit constraints; no attempts to evade them.
 
-## LEGFRISSEBB STÁTUSZ – 2026-11-05 Q8 után
+## 2026-11-05 Q11 UTÁN – KUTATÁSI SOR LEZÁRVA (AKTUÁLIS)
+
+Az SBT Drive/03/Leadspace mappában **12 PDF** van: Q1, Q2, Q3, Q4-R, Q5 ×2, Q6, Q7, Q8, **Q9, Q10, Q11**. Mindegyik kutatási téma kapott futtatási eredményt; a **teljes független tudományos elfogadás nyitott**. A régi alábbi Q9/Q10/Q11 `PREPARED / NOT_SUBMITTED` sorok **történeti állapotok**.
+
+| Feladat | Végrehajtás | PDF |
+| --- | --- | --- |
+| Q9 mozgási/contact artefaktumok | `RESULT_RECEIVED / CONTENT_REVIEWED / SOURCE_AUDIT_OPEN` | [Q9](https://drive.google.com/file/d/1hGfSL-0aKVym78WZjmuVTum6A8XVQZ6R/view) |
+| Q10 EU termékszabályozás | `RESULT_RECEIVED / CONTENT_REVIEWED / LEGAL_PRIMARY_AUDIT_OPEN` | [Q10](https://drive.google.com/file/d/17wXd5AbGCziWYIqmreh_GyPlFVtuyJz3/view) |
+| Q11 SCL/SCR algoritmusok | `RESULT_RECEIVED / CONTENT_REVIEWED / BENCHMARK_OPEN` | [Q11](https://drive.google.com/file/d/1j6bOfoPY6FUe35rw6zrGkTElxUHfxbNG/view) |
+
+**Új általános LeapSpace prompt NEM kell.** Korlátozott pontosítás csak akkor szükséges, ha a laborprototípus tesztje, a szakértői biztonsági/jogi audit vagy egy hiteles ügyféligény konkrét bizonyítékhiányt tár fel. Áttérés: [Q9–Q11 eredményértékelés](LEAPSPACE_Q9_Q11_REVIEW_2026-11-05.md), [GSR bench teszt](../docs/GSR_BENCH_VALIDATION_DRAFT_2026-11-05.md), [LGW szintetikusadat-feladat](../docs/LGW_BENCH_SOFTWARE_TASK_2026-11-05.md) (előre megírva, **nem fut**).
+
+---
+
+## KORÁBBI STÁTUSZ – 2026-11-05 Q8 után (TÖRTÉNETI)
 
 **Q4-R és Q8 elkészült és archiválva**. A Drive-mappa **9 PDF-et** tartalmaz: Q1, Q2, Q3, Q4-R, Q5 két riport, Q6, Q7, Q8. A korábbi, alább található Q4-R/Q8 `PREPARED` megjelölés **történeti, mára felülírt**. A Q4-R és Q8 elsődleges hivatkozásainak egy része függetlenül ellenőrzött; a végleges technikai elfogadás **NINCS meg**. [Teljes Q4/Q8 forrásértékelés](Q4_Q8_EVIDENCE_REVIEW_2026-11-05.md).
 
